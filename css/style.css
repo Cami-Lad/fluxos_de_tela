@@ -8,8 +8,8 @@ html{font-size: 16px;}
 }
 
 .icones_menu{ /*filhos*/
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 20%;
 }
 
 /*------------------------------------------------------------------*/
@@ -64,8 +64,12 @@ h2 { /*tema das páginas */
     font-weight : bold
 }
 
-.escolha{
-    
+.escolha{ /*texto tela inicial*/
+    border: 1px solid black;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightpink;
 }
 
 
