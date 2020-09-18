@@ -103,6 +103,7 @@ h2 { /*tema das páginas */
     font-size: 1.5rem;
     border: .1rem solid black;
     margin: 2rem;
+    justify-content: center;
 }
 
 .dicas{ /* tela inicial - infos*/
@@ -229,3 +230,20 @@ p{ /*textos de paragráfos*/
 
     
 
+.info{display:flex;
+flex-direction: column;
+align-items: center;
+margin: 1rem;
+}
+
+.info>li{font-size: 1.5rem;
+margin: 1rem;
+padding: 2rem;
+border: .1rem solid black;}
+
+.custom-select{display: flex;
+flex-direction: column;
+justify-content: center;
+
+align-items: center;
+margin: 1rem;}
