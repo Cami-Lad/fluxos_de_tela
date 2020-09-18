@@ -6,4 +6,9 @@ height: 600px;}
     flex-direction: row;
     width: 100%;
 }
-body{display:flex;}
+
+body{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
