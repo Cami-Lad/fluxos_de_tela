@@ -40,8 +40,8 @@ header { /*yourhealth- titulo*/
 }
 footer{
     position: relative;
-    justify-content: row;
-    bottom: 0;
+    justify-content: row-reverse;
+    
     align-self: center;
 }
 
@@ -53,13 +53,10 @@ footer{
     align-self: flex-end;
     
 }
-.buscar > .iconesbaixo{ 
-    font-size: 10px;
-    margin:0.2rem;
-    padding: 0.1rem,0,0.1rem,0,2rem;
+
     
    
-}
+
 .menu {
     position: absolute;
     top: 0;
@@ -112,8 +109,19 @@ h2 { /*tema das páginas */
     height: 1.5rem;
     align-self: flex-end;
     }
-li{border-bottom: .1rem solid gray;
-    padding: 1rem;}
+.rotinas{display: flex;
+    
+    flex-direction: column;
+    align-items: flex-end;}
+li{
+    border-bottom: .1rem solid gray;
+    padding: .1rem;}
+    
+.horas{
+    font-size: 1.5rem;
+    border: .1rem solid black;
+    margin: 2rem;
+}
     
 .iconesbaixo{ /* fluxo de médico*/
     display: block;
@@ -138,3 +146,30 @@ p{position: relative;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;}
+
+.iconescanto{ /* fluxo de médico*/
+        display: flex;
+        margin: 1rem 0 1rem 1rem;
+        border: .1rem solid black;
+        padding: 0 0 0 10rem;
+       
+        
+}
+button{display: flex;
+    flex-direction: row;
+    margin: 1rem 0 1rem 6rem;
+    justify-content: center;}
+    
+.check{font-size: 2rem;}
+
+.dicas{
+    display: flex;
+    
+    flex-direction: row;
+    align-items: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 1rem 1rem 1rem;
+    border: .1rem solid black;
+    padding:  .1rem;
+}
