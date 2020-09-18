@@ -1,27 +1,31 @@
-.icones{width:400px;
-height: 600px;}
+
+.icones{
+    align-items: flex-end;
+    flex-direction: row;
+   }
 
 body{
     display:flex;
     flex-direction: column;
     width: 100%;
+    font-weight: 16px;
 }
 
 .buscar{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 80%;
 }
 
 .menu {
     position: absolute;
     top: 0;
     left: 0;
-    width: 3rem;
-    height: 3rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
-.nome {
+h1 {
     position: relative;
     display: flex;
     justify-content: center;
