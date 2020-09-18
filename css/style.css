@@ -19,7 +19,7 @@ header { /*yourhealth- titulo*/
 }
 footer{
     position: fixed;
-    justify-content: row-reverse;
+    
     bottom:0;
     align-self: center;
 }
