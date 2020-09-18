@@ -46,7 +46,7 @@ footer{
 .buscar{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 80%; 
 }
 
 .menu {
@@ -77,10 +77,10 @@ h2 { /*tema das páginas */
 }
 
 .escolha{ 
-    border: 1px solid black;
-    margin: 50px;
-    padding: 10px;
-    border-radius: 5px;
+    border: 0.1rem solid black;
+    margin:0.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
     background-color: lightpink;
 }
 
@@ -89,8 +89,15 @@ h2 { /*tema das páginas */
     height: 1.5rem;
 }
 
-
-
+.lupinha2{width: 1.5rem;
+    height: 1.5rem;
+    align-self: flex-end;
+    margin:0.1rem;
+}
+.fundo{width: 1.5rem;
+    height: 1.5rem;
+    align-self: flex-end;
+    }
 li{border-bottom: .1rem solid gray;
     padding: 1rem;}
     
@@ -107,3 +114,13 @@ li{border-bottom: .1rem solid gray;
     text-decoration: none;
     border-radius: .5rem;
 }
+p{position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.check{display:flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;}
