@@ -1,33 +1,13 @@
 
 html{font-size: 16px;}
-/*Icones do menu*/
+
+/*Geral*/
+
 body{ /*pai elementos*/
     display:flex;
     flex-direction: column;
     width: 100%;
 }
-.icones{   /*pai*/
-    display:flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-   
-    
-}
-.icones > li{
-    border:0;
-}
-figure{
-    display:flex;
-    flex-direction: column;
-}
-.icones_menu{ /*filhos*/
-    width: 10rem;
-    height: 10rem;
-}
-
-/*------------------------------------------------------------------*/
 
 header { /*yourhealth- titulo*/
     position: relative;
@@ -44,18 +24,6 @@ footer{
     
     align-self: center;
 }
-
-
-.buscar{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-self: flex-end;
-    
-}
-
-    
-   
 
 .menu {
     position: absolute;
@@ -85,7 +53,44 @@ h2 { /*tema das páginas */
     font-weight : bold
 }
 
-.escolha{ 
+.voltar{width: 1.5rem; /*botão de volta*/
+    height: 1.5rem;
+}
+
+.lupinha{width: 1.5rem;
+    height: 1.5rem;
+    flex-direction: row;
+    align-self: flex-end;
+    margin:0.1rem;
+}
+
+/*------------------------------------------------------------------*/
+
+/*Icones do menu*/
+
+.icones{   /*pai*/
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icones > li{ 
+    border:0;
+}
+
+.icones_menu{ /*filhos*/
+    width: 10rem;
+    height: 10rem;
+}
+
+/*------------------------------------------------------------------*/
+
+
+/*tela inicial*/
+
+.escolha{ /*tela de inicio*/
     display: flex;
     border: 0.1rem solid black;
     margin:0.5rem;
@@ -93,80 +98,14 @@ h2 { /*tema das páginas */
     border-radius: 1rem;
     background-color: lightpink;
 }
-.perfil_paciente{display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;}
 
-.lupinha{width: 1.5rem;
-    height: 1.5rem;
-}
-
-.lupinha2{width: 1.5rem;
-    height: 1.5rem;
-    flex-direction: row;
-    align-self: flex-end;
-    margin:0.1rem;
-}
-.fundo{width: 1.5rem;
-    height: 1.5rem;
-    align-self: flex-end;
-    }
-.rotinas{display: flex;
-    
-    flex-direction: column;
-    align-items: flex-end;}
-li{
-    border-bottom: .1rem solid gray;
-    font-size: 1.2rem;
-    padding: .1rem;}
-    
-.horas{
+.horas{ /*tela inicial - infos */
     font-size: 1.5rem;
     border: .1rem solid black;
     margin: 2rem;
 }
-    
-.iconesbaixo{ /* fluxo de médico*/
-    display: block;
-    margin: 1rem;
-    border: .1rem solid black;
-    padding: 1rem 1rem 1rem 4rem;
-   
-    background-size: 2rem 2rem;
-    background-repeat: no-repeat;
-    background-position: 1rem 1rem;
-    font-size: 2rem;
-    text-decoration: none;
-    border-radius: .5rem;
-}
-p{position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;}
 
-.check{display:flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;}
-
-.iconescanto{ /* fluxo de médico*/
-        display: flex;
-        margin: 1rem 0 1rem 1rem;
-        border: .1rem solid black;
-        padding: 0 0 0 10rem;
-       
-        
-}
-button{display: flex;
-    flex-direction: row;
-    margin: 1rem 0 1rem 6rem;
-    justify-content: center;}
-    
-.check{font-size: 2rem;}
-
-.dicas{
+.dicas{ /* tela inicial - infos*/
     display: flex;
     
     flex-direction: column;
@@ -177,3 +116,116 @@ button{display: flex;
     
     padding:  .1rem;
 }
+
+.rotinas{ /*tela inicio - informações*/
+    display: flex;
+    
+    flex-direction: column;
+    align-items: flex-end;}
+
+
+/*------------------------------------------------------------------*/
+
+/*Botões*/
+
+.buscar{ /*botão busca*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    
+}
+
+button{ /*botões*/
+    display: flex;
+    flex-direction: row;
+    margin: 1rem ;
+    justify-content: center;}
+
+/*------------------------------------------------------------------*/
+
+/* Área Pacientes*/
+
+.perfil_paciente{ /*foto paciente*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+
+/*------------------------------------------------------------------*/
+
+/*receitas*/
+
+.check{ /*check dos filtros*/
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.box{ /* rotina*/
+    margin:1rem;
+    padding: .9rem;
+    border: .1rem solid black;
+}
+
+/*------------------------------------------------------------------*/
+
+.fundo{
+    width: 1.5rem;
+    height: 1.5rem;
+    align-self: flex-end;
+}
+
+
+
+li{ /*listas*/  
+    border-bottom: .1rem solid gray;
+    font-size: 1.2rem;
+    padding: .1rem;}
+    
+
+main{  
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: .1rem solid black;
+}
+
+.iconesbaixo{ 
+   justify-content: center;
+    margin: 1rem;
+    
+    padding: 1rem 1rem 1rem 4rem;
+   
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+    background-position: 1rem 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+}
+
+p{ /*textos de paragráfos*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.iconescanto{ /* fluxo de médico*/
+        display: flex;
+        margin: 1rem 0 1rem 1rem;
+        border: .1rem solid black;
+        padding: 0 0 0 10rem; 
+}
+
+    
+
