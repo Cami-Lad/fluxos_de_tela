@@ -2,7 +2,9 @@
 .icones{
     align-items: flex-end;
     flex-direction: row;
-    
+    width: 30%;
+    height: 3rem;
+}
    }
 
 body{
