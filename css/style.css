@@ -18,7 +18,10 @@ body{ /*pai elementos*/
 .icones > li{
     border:0;
 }
-
+figure{
+    display:flex;
+    flex-direction: column;
+}
 .icones_menu{ /*filhos*/
     width: 10rem;
     height: 10rem;
@@ -45,15 +48,24 @@ footer{
 
 .buscar{
     display: flex;
-    flex-direction: row;
-    width: 80%; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    
 }
-
+.buscar > .iconesbaixo{ 
+    font-size: 10px;
+    margin:0.2rem;
+    padding: 0.1rem,0,0.1rem,0,2rem;
+    
+   
+}
 .menu {
     position: absolute;
     top: 0;
     left: 0;
     width: 3rem;
+    flex-wrap: wrap;
     height: 3rem;
 }
 
@@ -77,6 +89,7 @@ h2 { /*tema das páginas */
 }
 
 .escolha{ 
+    display: flex;
     border: 0.1rem solid black;
     margin:0.5rem;
     padding: 0.5rem;
@@ -91,6 +104,7 @@ h2 { /*tema das páginas */
 
 .lupinha2{width: 1.5rem;
     height: 1.5rem;
+    flex-direction: row;
     align-self: flex-end;
     margin:0.1rem;
 }
