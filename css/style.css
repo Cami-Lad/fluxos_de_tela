@@ -2,10 +2,13 @@
 .icones{
     align-items: flex-end;
     flex-direction: row;
-    width: 30%;
-    height: 3rem;
 }
-   }
+
+.icones_menu{
+    width: 10rem;
+    height: 10rem;
+}
+
 
 body{
     display:flex;
