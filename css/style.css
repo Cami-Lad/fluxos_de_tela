@@ -8,8 +8,8 @@ html{font-size: 16px;}
 }
 
 .icones_menu{ /*filhos*/
-    width: 10rem;
-    height: 10rem;
+    width: 10%;
+    height: 10%;
 }
 
 /*------------------------------------------------------------------*/
@@ -64,6 +64,9 @@ h2 { /*tema das páginas */
     font-weight : bold
 }
 
+.escolha{
+    
+}
 
 
 .lupinha{width: 1.5rem;
