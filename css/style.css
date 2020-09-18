@@ -103,8 +103,9 @@ h2 { /*tema das páginas */
     font-size: 1.5rem;
     border: .1rem solid black;
     margin: 2rem;
-    align-items: center;
 }
+
+
 
 .dicas{ /* tela inicial - infos*/
     display: flex;
@@ -155,6 +156,47 @@ button{ /*botões*/
     font-size: 1.3rem;
 }
 
+.horario{ /*tela inicial - infos */
+    font-size: 1.5rem;
+    border: .1rem solid black;
+    margin: 2rem;
+    justify-content: center;
+}
+
+.iconesbaixo{ 
+    justify-content: center;
+    margin: 1rem;
+    
+    padding: 1rem 1rem 1rem 4rem;
+   
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+    background-position: 1rem 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.info>li{
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 2rem;
+    border: .1rem solid black;
+}
+
+.box{ /* rotina*/
+    margin:1rem;
+    padding: .9rem;
+    border: .1rem solid black;
+}
+
 
 /*------------------------------------------------------------------*/
 
@@ -167,12 +209,6 @@ button{ /*botões*/
     flex-wrap: wrap;
     justify-content: center;
     font-size: 2rem;
-}
-
-.box{ /* rotina*/
-    margin:1rem;
-    padding: .9rem;
-    border: .1rem solid black;
 }
 
 /*------------------------------------------------------------------*/
@@ -198,19 +234,7 @@ main{
     border: .1rem solid black;
 }
 
-.iconesbaixo{ 
-   justify-content: center;
-    margin: 1rem;
-    
-    padding: 1rem 1rem 1rem 4rem;
-   
-    background-size: 2rem 2rem;
-    background-repeat: no-repeat;
-    background-position: 1rem 1rem;
-    font-size: 2rem;
-    text-decoration: none;
-    border-radius: .5rem;
-}
+
 
 p{ /*textos de paragráfos*/
     position: relative;
@@ -230,16 +254,7 @@ p{ /*textos de paragráfos*/
 
     
 
-.info{display:flex;
-flex-direction: column;
-align-items: center;
-margin: 1rem;
-}
 
-.info>li{font-size: 1.5rem;
-margin: 1rem;
-padding: 2rem;
-border: .1rem solid black;}
 
 .custom-select{display: flex;
 flex-direction: column;
@@ -247,6 +262,9 @@ justify-content: space-between;
 
 align-items: center;
 margin: 1rem;}
-
+.custom-select>h2{font-size: 3rem;}
 select{margin: 1rem;
-width: 2rem;}
+
+font-size: 2rem;}
+
+.profissionais{font-size: 2rem;}
