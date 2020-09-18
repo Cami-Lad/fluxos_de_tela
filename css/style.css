@@ -58,4 +58,10 @@ header {
     justify-content: center;
     align-items: center;
     height: 3rem;
-    border-bottom: .1rem solid black;
+    border-bottom: .1rem solid black;}
+
+.lupinha{width: 1.5rem;
+height: 1.5rem;}
+ul{flex-grow: 1;}
+li{border-bottom: .1rem solid gray;
+    padding: 1rem;}

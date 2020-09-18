@@ -3,7 +3,7 @@
     <head >
         <title>profissionais</title>   <!-- Nome da página-->
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
@@ -13,23 +13,36 @@
             <h1>
                 YOUR   HEALTH 
             </h1>
-            <h2>filtro de profissionais</h2>   <!-- Página para filtrar o tipo de profissional-->
+               <!-- Página para filtrar o tipo de profissional-->
            
             </header>
+            <h2>filtro de profissionais</h2>
 
             
-            <form>
-                <input type="search" >nome do convenio   <!-- Botão de pesquisa para o convenio-->
-                <button type="reset">enviar</button>
-            </form>
-            <form>
-                <input type="search" >especialidade    <!-- Botão de pesquisa para a especialidade do médico-->
-                <button type="reset">enviar</button>
-                </form>
-                
+                <div class="custom-select" style="widows: 10rem;">
+                    <select>
+                        <option value="0">escolha seu convenio</option>
+                        <option value="1">ALLIANZ SAÚDE</option>
+                        <option value="2">AMEPLAN SAÚDE</option>
+                        <option value="3">AMIL SAÚDE</option>
+                        <option value="4">BIOSAÚDE</option>
+                        <option value="5">PLENA SAÚDE</option>
+                    </select>
+                    <select>
+                        <option value="0">especializacao</option>
+                        <option value="1">ortodentista</option>
+                        <option value="2">gastro</option>
+                        <option value="3">nutricionista</option>
+                        <option value="4">cardio</option>
+                        <option value="5">personal</option>
+                    </select>
+                    </div>
+                    <form action="../outrastelas/entrefiltrosprof+.html">
+                 <button>pesquisar</button>
+                 </form>
             <footer>
                 
-                 <a href="../outrastelas/profissionais.html"><img src="../videosfotos/voltar.png" width="30" height="30" alt="voltar"></a> <!-- Botão de volta para a página anterior -->
+                 <a href="../outrastelas/entrefiltroprof.html"><img src="../videosfotos/voltar.png" width="30" height="30" alt="voltar"></a> <!-- Botão de volta para a página anterior -->
               
             </footer>
     </body>
