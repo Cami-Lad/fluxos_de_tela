@@ -1,2 +1,9 @@
 .icones{width:400px;
 height: 600px;}
+
+.buscar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+body{display:flex;}
