@@ -1,16 +1,29 @@
 
-.icones{
+
+/*Icones do menu*/
+
+.icones{   /*pai*/
     align-items: flex-end;
     flex-direction: row;
 }
 
-.icones_menu{
+.icones_menu{ /*filhos*/
     width: 10rem;
     height: 10rem;
 }
 
+/*------------------------------------------------------------------*/
 
-body{
+header { /*yourhealth- titulo*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-bottom: .1rem solid black;
+}
+
+body{ /*pai elementos*/
     display:flex;
     flex-direction: column;
     width: 100%;
@@ -37,31 +50,26 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 3rem;
+    font-weight: 16px
     border-bottom: .1rem solid black;
 }
-.iconesbaixo{
-    display: block;
-    margin: 1rem;
-    border: .1rem solid black;
-    padding: 1rem 1rem 1rem 4rem;
-   
-    background-size: 2rem 2rem;
-    background-repeat: no-repeat;
-    background-position: 1rem 1rem;
-    font-size: 2rem;
-    text-decoration: none;
-    border-radius: .5rem;
-}
-header {
+
+h1 { /*tema das páginas */
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 3rem;
-    border-bottom: .1rem solid black;}
+    font-weight : bold
+}
+
+
 
 .lupinha{width: 1.5rem;
-height: 1.5rem;}
+    height: 1.5rem;
+}
+
+
 ul{flex-grow: 1;}
 li{border-bottom: .1rem solid gray;
     padding: 1rem;}
