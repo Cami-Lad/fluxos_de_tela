@@ -93,7 +93,10 @@ h2 { /*tema das páginas */
     border-radius: 1rem;
     background-color: lightpink;
 }
-
+.perfil_paciente{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
 
 .lupinha{width: 1.5rem;
     height: 1.5rem;
@@ -115,6 +118,7 @@ h2 { /*tema das páginas */
     align-items: flex-end;}
 li{
     border-bottom: .1rem solid gray;
+    font-size: 1.2rem;
     padding: .1rem;}
     
 .horas{
@@ -165,11 +169,11 @@ button{display: flex;
 .dicas{
     display: flex;
     
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-end;
-    align-items: center;
+    
     flex-wrap: wrap;
     margin: 1rem 1rem 1rem 1rem;
-    border: .1rem solid black;
+    
     padding:  .1rem;
 }
