@@ -16,7 +16,7 @@ header { /*yourhealth- titulo*/
     justify-content: center;
     align-items: center;
     border-bottom: .1rem solid black;
-    background-color: #80deea;
+    background-color: #00acc1;
 
 }
 footer{
@@ -100,7 +100,7 @@ h2 { /*tema das páginas */
     border-radius: 1rem;
     flex-direction: column;
     align-items: center;
-    background-color: #00acc1;
+    background-color:  #80deea;
 }
 
 .horas{ /*tela inicial - infos */
