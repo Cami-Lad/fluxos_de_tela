@@ -7,6 +7,7 @@ body{ /*pai elementos*/
     display:flex;
     flex-direction: column;
     width: 100%;
+    background-color: #EEEEEE;
 }
 
 header { /*yourhealth- titulo*/
@@ -15,6 +16,7 @@ header { /*yourhealth- titulo*/
     justify-content: center;
     align-items: center;
     border-bottom: .1rem solid black;
+    background-color: #4bacb8;
 
 }
 footer{
@@ -40,6 +42,7 @@ h1 {
     align-items: center;
     margin: 1rem;
     font-size: 3rem;
+    
     
 }
 
@@ -95,7 +98,7 @@ h2 { /*tema das páginas */
     margin:0.5rem;
     padding: 0.5rem;
     border-radius: 1rem;
-    background-color: lightpink;
+    background-color: #00acc1;
 }
 
 .horas{ /*tela inicial - infos */
