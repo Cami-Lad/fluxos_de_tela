@@ -196,6 +196,7 @@ button{ /*botões*/
     margin:1rem;
     padding: .9rem;
     border: .1rem solid black;
+    
 }
 
 
@@ -210,6 +211,7 @@ button{ /*botões*/
     flex-wrap: wrap;
     justify-content: center;
     font-size: 2rem;
+    
 }
 
 /*------------------------------------------------------------------*/
