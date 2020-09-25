@@ -279,7 +279,10 @@ select{
     font-size: 1rem;
     font-family: 'Noto Sans', sans-serif;}
 
-.profissionais{font-size: 2rem;}
+.profissionais{
+    font-size: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+}
 
 .center{align-items: center;}
 .center>.buscar{align-items: flex-end;}
