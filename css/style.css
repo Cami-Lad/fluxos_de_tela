@@ -53,7 +53,7 @@ h2 { /*tema das páginas */
     justify-content: center;
     align-items: center;
     height: 5rem;
-    font-weight : bold
+    font-weight : bold;
     font-family: 'Noto Serif', serif;
 
 }
@@ -168,7 +168,10 @@ button{ /*botões*/
     font-family: 'Noto Sans', sans-serif;
 }
 
-
+label{ margin: .5rem;
+    padding: .5rem;
+    
+}
 
 .iconesbaixo{ 
     justify-content: center;
@@ -213,13 +216,15 @@ button{ /*botões*/
 
 .check{ /*check dos filtros*/
     display:flex;
-    align-items: center;
+    align-items:center;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    
+    padding: .5rem;
     font-size: 2rem;
     font-family: 'Noto Sans', sans-serif;
 }
+
 
 /*------------------------------------------------------------------*/
 
